@@ -15,7 +15,7 @@
                 } else {
                     var tableBody = document.getElementById('contactTableBody');
                     var newRow = tableBody.insertRow();
-                    newRow.innerHTML = "<td></td><td>" + name + "</td><td>" + phone + "</td><td>" + email + "</td><td>" + date + "</td><td><button class='btn btn-info btn-sm' onclick='editRow(this.parentNode.parentNode)'>Edit</button> <button class='btn btn-danger btn-sm' onclick='deleteRow(this.parentNode.parentNode)'>Delete</button></td>";
+                    newRow.innerHTML = "<td></td><td>" + name + "</td><td>" + phone + "</td><td>" + email + "</td><td>" + date + "</td><td><button class='btn btn-info btn-sm' id='btn-sm' onclick='editRow(this.parentNode.parentNode)'>Edit</button> <button class='btn btn-danger btn-sm' id='btn-sm' onclick='deleteRow(this.parentNode.parentNode)'>Delete</button></td>";
                 }
 
                 clearForm();
